@@ -1,0 +1,33 @@
+body {
+  margin-top: 50px;
+  background-color: #eee;
+}
+
+#row1 {
+  padding: 0px 0px 35px 0px;
+  list-style-type: none;
+  margin-left: 490px;
+}
+
+#row2 {
+  padding: 340px 0px 35px 0px;
+  list-style-type: none;
+  margin-left: 490px;
+}
+
+.row_allignment {
+  margin-left: 28px;
+  background-color: white;
+  float: left;
+  transition: transform 1s;
+  object-fit: fill;
+}
+
+.row_allignment:hover {
+  transform: scale(1.1);
+}
+
+.image_size {
+  width: 270px;
+  object-fit: fill;
+}
